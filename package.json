@@ -1,5 +1,5 @@
 {
-  "name": "lizard-arena",
+  "name": "Phaser-Coluseus-Platformer",
   "version": "0.0.1",
   "description": "Example of using `https://www.colyseus.io/` with `@geckos.io/phaser-on-nodejs`",
   "scripts": {
@@ -21,7 +21,6 @@
     "phaser",
     "geckos.io"
   ],
-  "author": "hatala91",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hatala91/lizard-arena/issues"
