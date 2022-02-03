@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "node_module/phaser/types"],
+    "types": ["phaser"],
+    "allowJs": false,
+    "outDir": "../../build/server",
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
