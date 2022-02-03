@@ -2,7 +2,7 @@
 
 A platformer starter for using colyseus and phaser 3 framework. Using `@geckos.io/phaser-on-nodejs` running Phaser Headless mode on nodejs.
 
-- derived from lizard-phaser example.
+- derived from [lizard-arena](https://github.com/hatala91/lizard-arena) example.
 
 ## How to run this
 
