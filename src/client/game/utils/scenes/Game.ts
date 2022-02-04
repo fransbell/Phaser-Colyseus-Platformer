@@ -1,7 +1,7 @@
 import Phaser from "phaser"
 
 import * as Colyseus from "colyseus.js"
-import { deepEqual } from "../utils/index"
+import { deepEqual } from "../index"
 
 export default class Demo extends Phaser.Scene {
   client!: Colyseus.Client
@@ -23,9 +23,7 @@ export default class Demo extends Phaser.Scene {
     this.playersRef = {}
     this.keyboard = this.input.keyboard.addKeys("up,right,left,down")
 
-    this.client = new Colyseus.Client(
-      "ws://b7bf-2405-9800-b903-bdb5-00-1.ap.ngrok.io/"
-    )
+    this.client = new Colyseus.Client("ws://localhost:300")
     const client = this.client
     client
       .joinOrCreate("game_instance")

@@ -35,7 +35,7 @@ const gameServer = new Server({
   }),
 })
 
-gameServer.simulateLatency(200)
+//gameServer.simulateLatency(200)
 
 // Register room handlers
 gameServer.define("game_instance", GameRooms)
