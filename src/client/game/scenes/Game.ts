@@ -1,7 +1,7 @@
 import Phaser from "phaser"
 
 import * as Colyseus from "colyseus.js"
-import { deepEqual } from "../index"
+import { deepEqual } from "../utils/index"
 
 export default class Demo extends Phaser.Scene {
   client!: Colyseus.Client
