@@ -23,7 +23,7 @@ export default class Demo extends Phaser.Scene {
     this.playersRef = {}
     this.keyboard = this.input.keyboard.addKeys("up,right,left,down")
 
-    this.client = new Colyseus.Client("ws://localhost:300")
+    this.client = new Colyseus.Client("ws://localhost:3000")
     const client = this.client
     client
       .joinOrCreate("game_instance")
@@ -55,8 +55,6 @@ export default class Demo extends Phaser.Scene {
 
   patchPlayer(list: any) {
     // create instance of all presence
-
-    console.log(list)
 
     list.presenceList.map((item, idx) => {
       if (this.playersRef[item] === undefined) {
